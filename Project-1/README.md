@@ -1,16 +1,104 @@
-# React + Vite
+# React JS Project (Vite)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a **React JS project** created using **Vite**.  
+Vite provides a fast development environment with modern tooling.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Live : https://react-js-project-1-rouge.vercel.app/
 
-## React Compiler
+## 📁 Project Structure
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```
+REACT_JS_PROJECT_1
+│
+├── node_modules/
+├── public/
+│   └── vite.svg
+├── src/
+│   ├── assets/
+│   │   └── react.svg
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── eslint.config.js
+├── index.html
+├── package.json
+├── README.md
+├── vite.config.js
+└── yarn.lock
+```
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Getting Started
+
+### 1️⃣ Install Dependencies
+```bash
+npm install
+# or
+yarn install
+```
+
+### 2️⃣ Run Development Server
+```bash
+npm run dev
+# or
+yarn dev
+```
+
+Open your browser and go to:
+```
+http://localhost:5173
+```
+
+---
+
+## 🛠 Build for Production
+```bash
+npm run build
+# or
+yarn build
+```
+
+---
+
+## 🔍 Preview Production Build
+```bash
+npm run preview
+# or
+yarn preview
+```
+
+---
+
+## ⚙️ Technologies Used
+
+- React JS
+- Vite
+- JavaScript (ES6+)
+- CSS
+
+---
+
+## ✨ Features
+
+- Fast development with Vite
+- Hot Module Replacement (HMR)
+- Clean and simple project structure
+- Easy to customize and scale
+
+---
+
+## 📌 Author
+
+**Drashti Bilimoria**  
+React Developer 🚀
+
+---
+
+## 📄 License
+
+This project is open source and free to use.
